@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowSystem</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>sysinfo</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.steved.widget.sysinfo</string>
+	<key>CFBundleName</key>
+	<string>sysinfo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CloseBoxInsetX</key>
+	<integer>14</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>16</integer>
+	<key>Height</key>
+	<integer>256</integer>
+	<key>MainHTML</key>
+	<string>sysinfo.html</string>
+	<key>Width</key>
+	<integer>694</integer>
+</dict>
+</plist>

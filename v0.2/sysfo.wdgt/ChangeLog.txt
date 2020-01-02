@@ -1,0 +1,10 @@
+SysfO ChangeLog
+
+v0.1
+----
+initial release
+
+v0.2
+----
+Added this file.
+Added some opacity to animated on info screen.

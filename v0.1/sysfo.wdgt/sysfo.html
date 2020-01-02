@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><!--
+    SysfO - Mac OSX widget that displays various system information.
+    Copyright (C) 2009  Steve Dickinson  dsdickinson@mac.com
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program (see COPYING file).  If not, see <http://www.gnu.org/licenses/>.
+--><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css" title="AppleStyle">
+        @import "sysfo.css";
+    </style>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/utilities.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/setup.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/Text.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/InfoButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/GlassButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="sysfo.js" charset="utf-8"></script>
+<script type="text/javascript" src="Parts/Shape.js" charset="utf-8"></script>
+
+
+
+</head>
+<body onload="load();">
+    <div id="front">
+        <img id="frontImg" src="Images/front.png" alt="">
+        
+        <div id="info"></div>
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div id="topRectangleShape"></div>
+    <div id="helloText10"></div>
+    <div apple-text-overflow="ellipsis" id="kern_version"></div>
+    <div id="bottomRectangleShape"></div>
+    <div apple-text-overflow="ellipsis" id="kern_hostname"></div>
+    <div id="helloText3"></div>
+    <div id="roundedRectangleShape"></div>
+    <div apple-text-overflow="ellipsis" id="machdep_cpu_address_bits_physical"></div>
+    <div apple-text-overflow="ellipsis" id="machdep_cpu_address_bits_virtual"></div>
+    <div apple-text-overflow="ellipsis" id="kern_osversion"></div>
+    <div apple-text-overflow="ellipsis" id="kern_osrevision"></div>
+    <div apple-text-overflow="ellipsis" id="kern_osrelease"></div>
+    <div apple-text-overflow="ellipsis" id="kern_ostype"></div>
+    <div id="helloText11"></div>
+    <div id="helloText9"></div>
+    <div id="helloText8" style=""></div>
+    <div id="helloText5"></div>
+    <div id="helloText4"></div>
+    <div id="helloText2"></div>
+    <div id="roundedRectangleShape1"></div>
+    <div id="helloText"></div>
+    <div id="helloText1"></div>
+    <div id="helloText6"></div>
+    <div id="helloText7"></div>
+    <div id="helloText12"></div>
+    <div id="helloText13"></div>
+    <div id="helloText14"></div>
+    <div id="helloText15"></div>
+    <div id="helloText16"></div>
+    <div apple-text-overflow="ellipsis" id="hw_model"></div>
+    <div apple-text-overflow="ellipsis" id="machdep_cpu_vendor"></div>
+    <div apple-text-overflow="ellipsis" id="machdep_cpu_brand_string"></div>
+    <div apple-text-overflow="ellipsis" id="hw_ncpu"></div>
+    <div apple-text-overflow="ellipsis" id="hw_cpufrequency"></div>
+    <div apple-text-overflow="ellipsis" id="hw_busfrequency"></div>
+    <div apple-text-overflow="ellipsis" id="hw_memsize"></div>
+    <div apple-text-overflow="ellipsis" id="hw_physmem"></div>
+    <div apple-text-overflow="ellipsis" id="hw_usermem"></div>
+    <div apple-text-overflow="ellipsis" id="os_specific"></div>
+    <div apple-text-overflow="ellipsis" id="hw_specific"></div>
+    <div apple-text-overflow="ellipsis" id="text"></div>
+    <div apple-text-overflow="ellipsis" id="text1"></div>
+    <div id="glassbutton" onmouseover="selectRun(event)"></div>
+    
+    
+    </div>
+    <div id="back">
+        <img id="backImg" src="Images/back.png" alt="">
+        <img id="backImg1" src="Images/back%201.png" alt="">
+    <img id="backImg2" src="Images/back%202.png" alt="">
+    
+       
+        
+        
+    
+    
+    
+    
+    
+    
+    <div apple-text-overflow="ellipsis" id="text4" onclick="showCodeUni(event)" onmouseover="selectCodeUni(event)"></div>
+    
+    <div apple-text-overflow="ellipsis" id="text6"></div>
+    
+    
+    
+    
+    <div id="done" onmouseover="selectDone(event)"></div>
+    <div id="roundedRectangleShape3" style=""></div>
+    
+    
+    
+    
+    
+    <div apple-text-overflow="ellipsis" id="text7" style=""></div>
+    <div apple-text-overflow="ellipsis" id="text7"></div>
+    
+    
+    <div apple-text-overflow="ellipsis" id="text15"></div>
+    <div apple-text-overflow="ellipsis" id="text16"></div>
+    
+    <div apple-text-overflow="ellipsis" id="text2"></div>
+    <div apple-text-overflow="ellipsis" id="text3"></div>
+    
+    
+    <div apple-text-overflow="ellipsis" id="text5"></div>
+    <div apple-text-overflow="ellipsis" id="text14" style=""></div>
+    <div apple-text-overflow="ellipsis" id="text17" style=""></div>
+    <div apple-text-overflow="ellipsis" id="text9"></div>
+    <div apple-text-overflow="ellipsis" id="text8" style=""></div>
+    
+    
+    <img src="Images/cli%201.gif" id="img">
+    </div>
+
+</body>
+</html>

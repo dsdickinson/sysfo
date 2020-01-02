@@ -1,0 +1,20 @@
+kern.ostype = Darwin
+kern.osrelease = 9.4.0
+kern.osrevision = 199506
+kern.version = Darwin Kernel Version 9.4.0: Mon Jun  9 19:30:53 PDT 2008; root:xnu-1228.5.20~1/RELEASE_I386
+kern.hostname = colossus
+hw.model = MacBookPro1,1
+hw.ncpu = 2
+hw.busfrequency = 664000000
+hw.cpufrequency = 2000000000
+hw.physmem = 2147483648
+hw.usermem = 2016055296
+hw.tbfrequency = 1000000000
+hw.memsize = 2147483648
+hw.availcpu = 2
+kern.osversion: 9E17
+machdep.cpu.address_bits.virtual: 32
+machdep.cpu.address_bits.physical: 32
+machdep.cpu.brand_string: Genuine Intel(R) CPU           T2500  @ 2.00GHz
+machdep.cpu.vendor: GenuineIntel
+
